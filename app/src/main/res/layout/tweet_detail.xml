@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
@@ -80,16 +79,6 @@
         android:layout_marginTop="5dp"
         android:tint="@color/medium_gray"
         app:srcCompat="@drawable/ic_vector_heart_stroke" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="12dp"
-        android:layout_height="7dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="8dp"
-        app:srcCompat="@drawable/down_arrow" />
 
 
 </RelativeLayout>

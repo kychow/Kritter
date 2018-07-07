@@ -6,6 +6,7 @@
     <color name="verifiedBlue">#1dcaff</color>
     <color name="backgroundBlue">#c0deed</color>
     <color name="white">#FFFFFF</color>
+    <color name ="black">#000000</color>
 
     <color name="medium_green">#ff17bf63</color>
     <color name="medium_gray">#ffaab8c2</color>

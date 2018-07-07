@@ -12,6 +12,7 @@ public class User {
     public long uid;
     public String screenName;
     public String profileImageUrl;
+    public String handle;
 
     public User() {}
 

@@ -25,9 +25,10 @@ public class Tweet {
         tweet.body = jsonObject.getString("text");
         tweet.uid = jsonObject.getLong("id");
         tweet.createdAt = jsonObject.getString("created_at");
-        tweet.relativeTimestamp = DateUtility.getRelativeTimeAgo(tweet.createdAt);
+        tweet.relativeTimestamp = " • " + DateUtility.getRelativeTimeAgo(tweet.createdAt);
         tweet.user = User.fromJSON(jsonObject.getJSONObject("user"));
-        tweet.handle= jsonObject.getString("screen_name");
+        tweet.handle = " @" + tweet.user.screenName;
+
         return tweet;
     }
 }

@@ -2,17 +2,15 @@
      such as `res/menu/menu_movies.xml`  -->
 <menu xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:color="@color/white"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
 
     <item
         android:id="@+id/miActionProgress"
+        android:orderInCategory="100"
         android:title="Loading..."
         android:visible="true"
-        android:orderInCategory="100"
-        app:showAsAction="always"
-        app:actionLayout="@layout/action_view_progress" />
+        app:actionLayout="@layout/action_view_progress"
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/miCompose"
@@ -20,6 +18,7 @@
         android:onClick="onComposeAction"
         android:orderInCategory="101"
         android:title="Compose"
-        app:showAsAction="always"></item>
+        app:showAsAction="always" >
+    </item>
 
 </menu>
